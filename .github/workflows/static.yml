@@ -30,6 +30,10 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Install pelican
+        run: |
+          sudo apt-get update
+          DEBIAN_FRONTEND='noninteractive' sudo apt-get install -qy pelican
       - name: Build
         run: make html
       - name: Upload artifact
