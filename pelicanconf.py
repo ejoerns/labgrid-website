@@ -33,9 +33,9 @@ DISPLAY_PAGES_ON_MENU = False
 
 MENUITEMS = (
     ('Download', 'pages/download.html'),
-    ('Documentation', 'rauc.readthedocs.io'),
+    ('Documentation', 'labgrid.readthedocs.io'),
     ('Media', 'pages/media.html'),
-    ('Blog', 'www.pengutronix.de/en/tags/rauc.html'),
+    ('Blog', 'www.pengutronix.de/en/tags/labgrid.html'),
     ('Support', 'pages/support.html'),
 )
 
